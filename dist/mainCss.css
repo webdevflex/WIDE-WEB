@@ -3069,6 +3069,7 @@ body {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  z-index: 10;
 }
 .menu__item {
   display: block;
@@ -3077,6 +3078,7 @@ body {
   margin-right: 40px;
   font-size: 18px;
   font-family: 'Gilroy-bold';
+  padding-left: 20px;
 }
 .menu__item__wrap {
   position: relative;
@@ -11073,7 +11075,7 @@ nav.menu ul.flexi-row {
     background: #fff;
     width: 100%;
     left: 0;
-    z-index: 1;
+    z-index: 10;
   }
   .complex {
     padding-top: 20px;
