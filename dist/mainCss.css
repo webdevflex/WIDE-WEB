@@ -12469,6 +12469,8 @@ section.sertificatAbout {
   height: 0;
   z-index: -10;
   margin-bottom: 0;
+  margin: 0;
+  padding: 0;
 }
 .show-reviews {
   -webkit-transition: 1s;
@@ -13307,7 +13309,7 @@ span.ur-info-link-spb:hover {
     text-align: center;
   }
   .history-our-clinic .history_description {
-    margin-bottom: 10px;
+    margin-bottom: 35px;
     font-family: Inter;
     font-size: 15px;
     line-height: 22px;
@@ -13583,7 +13585,7 @@ span.ur-info-link-spb:hover {
     /* Icon */
   }
   .ourTeamAboutTabs .tab-label::after {
-    content: "\23F7";
+    content: url("img/down-arrow.svg");
     width: 1em;
     height: 1em;
     text-align: center;
@@ -14163,6 +14165,8 @@ span.ur-info-link-spb:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-bottom: 35px;
   padding-top: 45px;
 }
@@ -14175,6 +14179,7 @@ span.ur-info-link-spb:hover {
   padding-top: 35px;
   border-radius: 10px;
   width: 574px;
+  margin-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14182,13 +14187,20 @@ span.ur-info-link-spb:hover {
       flex-wrap: wrap;
 }
 .reviews-title {
-  font-size: 22px;
   margin-bottom: 10px;
+  color: #ffffff;
+  font-family: "Inter - Semi Bold";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
 }
 .reviews-subtitle {
-  font-weight: 500;
-  font-size: 15px;
   margin-bottom: 25px;
+  color: #cdcdcd;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
 }
 .reviews-link {
   font-size: 17px;
@@ -14196,14 +14208,21 @@ span.ur-info-link-spb:hover {
   border-bottom: 1px solid #1E98FF;
 }
 .reviews-text {
-  font-size: 15px;
-  font-weight: 400;
   margin-bottom: 50px;
   padding-top: 20px;
+  color: #cdcdcd;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.reviews--size {
+  width: 270px;
 }
 .reviews-item-wrapper {
   padding-left: 15px;
   padding-top: 30px;
+  min-height: 180px;
 }
 .reviews-btn {
   width: 168px;
@@ -14617,6 +14636,16 @@ span.ur-info-link-spb:hover {
   .workSchemeInfo-item--text {
     width: 84%;
   }
+  .tab-content {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 @media (max-width: 768px) {
   .wrapper-b2bcabinet {
@@ -14727,9 +14756,6 @@ span.ur-info-link-spb:hover {
     max-width: 100%;
     height: auto;
   }
-  .reviews-btnAll {
-    display: none;
-  }
   .sale-list {
     margin-right: 0;
     padding-left: 15px;
@@ -14767,6 +14793,31 @@ span.ur-info-link-spb:hover {
   }
   .line-accardion-open {
     bottom: -24px;
+  }
+  .tabs-content .swiper-button-next,
+  .tabs-content .swiper-button-prev {
+    display: none;
+  }
+  .tabs-content .swiper-slide > div {
+    height: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .reviews-our-clinic .title {
+    margin-bottom: 46px;
+  }
+  .reviews-our-clinic-block {
+    margin-bottom: 20px;
+  }
+  .reviews-btnAll {
+    margin-bottom: 45px;
   }
 }
 @media (max-width: 650px) {

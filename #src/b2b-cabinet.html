@@ -4,9 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <link rel="stylesheet" href="mainCss.css">
+        <link rel="stylesheet" href="mainCss.css"> 
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/> 
     </head>
 <body>
     <header class="header">
@@ -614,12 +614,31 @@
         <div class="reviews-others">
             <div class="reviews-item">
                 <div class="reviews-img">
-                    <img src="img/reviews-img-1.png" alt="">
+                    <!-- <img src="img/reviews-img-1.png" alt=""> -->
+                    <!-- <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <pattern id="img_1" patternUnits="userSpaceOnUse" width="100" height="100">
+                                <image xlink:href="img/alter-case-logo.png" x="0" width="100" height="100"></image>
+                            </pattern>
+                        </defs>
+                        <polygon id="hex" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img_1)"></polygon>
+                    </svg> -->
+                    <div class="author-img">
+                        <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <pattern id="img_1" patternUnits="userSpaceOnUse" width="100" height="100">
+                                    <image xlink:href="img/alter-case-logo.png" x="0" width="100" height="100"></image>
+                                </pattern>
+                            </defs>
+                            <polygon id="hex" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img_1)"></polygon>
+                        </svg>
+                        
+                    </div>
                 </div>
                 <div class="reviews-item-wrapper">
-                    <div class="reviews-title">Владимир Возняк</div>
-                    <div class="reviews-subtitle">Генеральный директор ООО Силоват</div>
-                    <a class="reviews-link" href="">silovat.ru</a>
+                    <div class="reviews-title">Максим Кононов</div>
+                    <div class="reviews-subtitle">Директор ЗАО "Альтернатива Брест"</div>
+                    <a class="reviews-link" href="">a-brest.by</a>
                 </div>
                 <div class="reviews-text">Знаете ли вы, что волшебные бобы - самые дружественные овощи для строительных клеток в организме? Пока все пишут красивые текста про свои быстроразвивающиеся компании, мы просто хорошо делаем свою работу.</div>
                 <button class="reviews-btn">
@@ -630,15 +649,81 @@
 
             <div class="reviews-item">
                 <div class="reviews-img">
-                    <img src="img/reviews-img-1.png" alt="">
+                    <!-- <img src="img/reviews-img-1.png" alt=""> -->
+                    <div class="author-img">
+                                <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                    <defs>
+                                        <pattern id="img_2" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image xlink:href="img/yastrebov2.png" x="0" width="100" height="100"></image>
+                                        </pattern>
+                                    </defs>
+                                    <polygon id="hex" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img_2)"></polygon>
+                                </svg>
+                                
+                            </div>
                 </div>
                 <div class="reviews-item-wrapper">
-                    <div class="reviews-title">Владимир Возняк</div>
-                    <div class="reviews-subtitle">Генеральный директор ООО Силоват</div>
-                    <a class="reviews-link" href="">silovat.ru</a>
+                    <div class="reviews-title">Дмитрий Ястребов</div>
+                    <div class="reviews-subtitle reviews--size">Начальник отдела ИТ ООО "Машиностроительное предприятие "КОМПО"</div>
+                    <a class="reviews-link" href="">kompo.by</a>
                 </div>
                 
-                <div class="reviews-text">Знаете ли вы, что волшебные бобы - самые дружественные овощи для строительных клеток в организме? Пока все пишут красивые текста про свои быстроразвивающиеся компании, мы просто хорошо делаем свою работу.</div>
+                <div class="reviews-text">Все работы были выполнены точно и в срок, согласно выработанного плана. В условиях пандемии все работы проходили в удалённом режиме, однако это не оказало отрицательного влияния на качество выполненных работ..</div>
+                <button class="reviews-btn reviews-btn-mail">
+                    <img class="reviews-play" src="img/reviews-file-white.svg" alt="">
+                    Благодарное письмо
+                </button>
+            </div>
+            <div data-id="reviews" class="reviews-item hiden-reviews">
+                <div class="reviews-img">
+                    <!-- <img src="img/reviews-img-1.png" alt=""> -->
+                    <div class="author-img">
+                        <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <pattern id="img_3" patternUnits="userSpaceOnUse" width="100" height="100">
+                                    <image xlink:href="img/svgstyle.jpg" x="0" width="100" height="100"></image>
+                                </pattern>
+                            </defs>
+                            <polygon id="hex" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img_3)" style="width: 120px;height: 97px;"></polygon>
+                        </svg>
+                    </div>
+                </div>
+                <div  class="reviews-item-wrapper">
+                    <div class="reviews-title">Валерий Сережкин</div>
+                    <div class="reviews-subtitle">Директор по развитию ООО «СВ-Групп»</div>
+                    <a class="reviews-link" href="">ООО «СВ-Групп»</a>
+                </div>
+                
+                <div class="reviews-text">Спасибо за то, что открыли для нас Битрикс24 с новой стороны, за то, что помогли сделать первый шаг к автоматизации процессов. Отдельное спасибо за человеческий подход, несмотря на то, что вы IT компания.</div>
+                <button class="reviews-btn reviews-btn-mail">
+                    <img class="reviews-play" src="img/reviews-file-white.svg" alt="">
+                    Благодарное письмо
+                </button>
+            </div>
+            <div data-id="reviews" class="reviews-item hiden-reviews">
+                <div class="reviews-img">
+                    <!-- <img src="img/reviews-img-1.png" alt=""> -->
+                    <div class="author-img">
+                        <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <pattern id="img_4" patternUnits="userSpaceOnUse" width="100" height="100">
+                                    <image xlink:href="img/cvetkova.jpg" x="0" width="100" height="100"></image>
+                                </pattern>
+                            </defs>
+                            <polygon id="hex" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img_4)"></polygon>
+                        </svg>
+                        <a href="https://vk.com/id3592244" class="absoVk" target="_blank">
+                            <picture><source srcset="img/soc.webp" type="image/webp"><img src="img/soc.png" alt=""></picture>
+                        </a>
+                    </div>
+                </div>
+                <div class="reviews-item-wrapper">
+                    <div class="reviews-title">Ольга Циркова</div>
+                    <div class="reviews-subtitle">ТМ Deesses</div>
+                    <a class="reviews-link" href="">ТМ Deesses</a>
+                </div>
+                
+                <div class="reviews-text">Очень профессиональный подход к работе, решили нашу проблему в кратчайшие сроки и все очень доступно объяснили. Чего мы не смогли получить от предыдущего подрядчика.</div>
                 <button class="reviews-btn reviews-btn-mail">
                     <img class="reviews-play" src="img/reviews-file-white.svg" alt="">
                     Благодарное письмо
@@ -721,10 +806,8 @@
 </main>
 <div class="line"></div>
 @@include('_footer.html')
-<script src="js/js.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+@@include('_scripts.html')
 </body>
-
 </html>
 
 
