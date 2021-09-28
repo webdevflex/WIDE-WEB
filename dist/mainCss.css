@@ -2224,8 +2224,8 @@ body {
   display: block;
 }
 .pride {
-  padding-top: 110px;
-  padding-bottom: 110px;
+  padding-top: 55px;
+  padding-bottom: 55px;
   text-align: center;
   background: url(img/pattern-gray.jpg);
   background-position-x: 10px;
@@ -8989,6 +8989,7 @@ nav.menu ul.flexi-row {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    margin-bottom: 30px;
   }
   .events {
     padding-bottom: 0px;
@@ -12354,7 +12355,7 @@ section.ourTeamAbout h2 {
   color: #fff;
   font-family: 'Gilroy-bold';
   text-align: center;
-  padding: 150px 0 50px;
+  padding: 50px 0 50px;
 }
 .ourTeamAbout .tabs__link {
   padding: 0;
@@ -12375,7 +12376,7 @@ a.tabs__link.tabs__link_active {
 }
 .ourTeamAbout {
   background: url(img/backonas.png);
-  padding-bottom: 140px;
+  padding-bottom: 50px;
 }
 .blockImageSvg {
   background: url(img/dec-no-active.png) no-repeat;
@@ -12430,19 +12431,16 @@ section.sertificatAbout h2 {
   color: #000;
   font-family: 'Gilroy-bold';
   text-align: left;
-  padding: 150px 0 100px;
+  padding: 50px 0 70px;
 }
 section.sertificatAbout {
-  padding-bottom: 170px;
+  padding-bottom: 120px;
 }
 .SertifSwiper {
   position: relative;
 }
-.reviews-our-clinic {
-  margin-bottom: 140px;
-}
 .reviews-our-clinic .title {
-  margin-bottom: 90px;
+  margin-bottom: 70px;
   text-align: center;
 }
 .reviews-our-clinic-blocks {
@@ -12462,6 +12460,26 @@ section.sertificatAbout {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.hiden-reviews {
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  opacity: 0;
+  height: 0;
+  z-index: -10;
+  margin-bottom: 0;
+}
+.show-reviews {
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  opacity: 1;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  z-index: 1;
+  margin-bottom: 40px;
 }
 .reviews-our-clinic-block:nth-of-type(odd) {
   margin-right: 20px;
@@ -12564,7 +12582,7 @@ section.sertificatAbout {
           filter: invert(1);
 }
 .reviews-our-clinic button.mt40 {
-  margin: 40px auto 0;
+  margin: 40px auto 80px;
   display: block;
 }
 .button-info a {
@@ -12646,8 +12664,8 @@ section.sertificatAbout {
   min-width: 1170px;
 }
 .history-our-clinic {
-  padding-top: 140px;
-  padding-bottom: 140px;
+  padding-top: 100px;
+  padding-bottom: 70px;
   background-color: #ffffff;
 }
 .history-our-clinic .title {
@@ -13419,7 +13437,6 @@ span.ur-info-link-spb:hover {
   .tabs-content .swiper-slide > div {
     position: relative;
     width: 100%;
-    min-height: 370px;
   }
   .history-good-block {
     padding: 40px 0 70px 0;

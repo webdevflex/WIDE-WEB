@@ -90,16 +90,16 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 //END
 //туглю блок юридической информации на странице Контакты
-    let userURlinkBrest = document.querySelector('.ur-info-link-brest');
-    let userInfoBrest = document.querySelector('.ur-info-brest');
-    let userURlinkSpb = document.querySelector('.ur-info-link-spb');
-    let userInfoSpb = document.querySelector('.ur-info-spb');
-    userURlinkBrest.addEventListener("click", function () {
-        userInfoBrest.classList.toggle('activeURBrest');
-    })
-    userURlinkSpb.addEventListener("click", function () {
-        userInfoSpb.classList.toggle('activeURSpb');
-    })
+    // let userURlinkBrest = document.querySelector('.ur-info-link-brest');
+    // let userInfoBrest = document.querySelector('.ur-info-brest');
+    // let userURlinkSpb = document.querySelector('.ur-info-link-spb');
+    // let userInfoSpb = document.querySelector('.ur-info-spb');
+    // userURlinkBrest.addEventListener("click", function () {
+    //     userInfoBrest.classList.toggle('activeURBrest');
+    // })
+    // userURlinkSpb.addEventListener("click", function () {
+    //     userInfoSpb.classList.toggle('activeURSpb');
+    // })
 //END
 //ТАБЫ НАШЕЙ КОМАНДЫ СТРАНИЦА О НАС
     let $tabs = function(target) {
@@ -167,3 +167,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
+//показываем -скрываем отзывы
+
+let reviewsAll = document.querySelectorAll('.reviews-our-clinic-block');
+let btnReviews = document.querySelector('.btn-more');
+
+btnReviews.addEventListener('click',function(){
+    
+   
+    reviewsAll.forEach(elem =>{
+        if(elem.hasAttribute('data-id')){
+            elem.classList.toggle('show-reviews')
+        }
+        
+    })
+    btnReviews.parentNode.removeChild(btnReviews)
+})
