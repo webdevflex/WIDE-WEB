@@ -14812,6 +14812,9 @@ span.ur-info-link-spb:hover {
   .reviews-btnAll {
     margin-bottom: 45px;
   }
+  .row_advantages_mission {
+    padding-left: 15px;
+  }
 }
 @media (max-width: 650px) {
   .bottomDiffOff-item img {
@@ -15068,6 +15071,53 @@ span.ur-info-link-spb:hover {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .value_block_miss {
+    width: 125px;
+    padding: 0;
+    margin-right: 20px;
+  }
+  .value_block_miss::before {
+    right: 0;
+  }
+  .descr_block_miss {
+    width: 50%;
+  }
+  p.descr_block_miss {
+    margin-top: 0;
+  }
+  .block_advant_mis {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .block_advant_mis {
+    margin-bottom: 27px;
+  }
+  .history-our-clinic {
+    padding-top: 36px;
+  }
+  .history-our-clinic .title {
+    text-align: left;
+    font-family: 'Gilroy-bold';
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+  .history-our-clinic .history_description {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: none;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 380px) {
+  .tabs-content .swiper-slide > div {
+    height: 230px;
+  }
 }
 @media (max-width: 360px) {
   .b2bTitl--size {
@@ -15301,6 +15351,9 @@ span.ur-info-link-spb:hover {
   .workSchemeSubtitle {
     font-size: 14px;
     padding-right: 44px;
+  }
+  .descr_block_miss {
+    width: 55%;
   }
 }
 @media (max-width: 340px) {
