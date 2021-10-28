@@ -14787,10 +14787,6 @@ span.ur-info-link-spb:hover {
   .line-accardion-open {
     bottom: -24px;
   }
-  .tabs-content .swiper-button-next,
-  .tabs-content .swiper-button-prev {
-    display: none;
-  }
   .tabs-content .swiper-slide > div {
     height: 250px;
     display: -webkit-box;
@@ -15098,6 +15094,7 @@ span.ur-info-link-spb:hover {
   }
   .history-our-clinic {
     padding-top: 36px;
+    padding-bottom: 36px;
   }
   .history-our-clinic .title {
     text-align: left;
@@ -15112,6 +15109,36 @@ span.ur-info-link-spb:hover {
     width: 100%;
     max-width: none;
     margin-bottom: 15px;
+  }
+  .history-sliders .swiper-button-next,
+  .history-sliders .swiper-button-prev {
+    width: 41px;
+    height: 41px;
+  }
+  .mission-ww .wrapper {
+    padding-top: 35px;
+  }
+  .reviews-our-clinic .title {
+    font-family: 'Gilroy-bold';
+    font-size: 26px;
+    text-align: left;
+    padding-right: 60px;
+    margin-bottom: 18px;
+  }
+  .reviews-our-clinic-block {
+    border-radius: 10px;
+  }
+  .content_review {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .reviews-our-clinic-block .inner-block {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+  }
+  .author-short-info .name {
+    font-family: "Inter - Semi Bold";
   }
 }
 @media (max-width: 380px) {
