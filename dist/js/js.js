@@ -46,6 +46,13 @@ document.addEventListener("DOMContentLoaded", () => {
         onTap: function(swiper, event) {
             if (event.target.classList.contains('swiper-slide') && !event.target.classList.contains('active-tab')) {
                 event.target.parentElement.querySelector('.active-tab').classList.remove('active-tab');
+                // let noclick = document.querySelector('.no-click')
+                // let swiperSlider = document.querySelector('.swiper-slide');
+                // swiperSlider{
+                //     if(elem.classList.contains('no-click')){
+                //        elem.classList.add('test1')
+                //     }
+                // })
                 event.target.classList.add('active-tab');
                 tabContent.slideTo(swiper.clickedIndex);
             }
@@ -200,3 +207,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
+console.log()

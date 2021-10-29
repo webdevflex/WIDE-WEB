@@ -12735,7 +12735,7 @@ section.sertificatAbout {
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   top: 16px;
   border: 2px solid #ffffff;
-  right: -20px;
+  right: -18px;
   z-index: -1;
 }
 .tabs-buttons .swiper-slide.active + .swiper-slide {
@@ -12747,7 +12747,7 @@ section.sertificatAbout {
   height: 100%;
   background-color: #eb5b39;
   position: absolute;
-  left: -1px;
+  left: -4px;
   top: 0;
   bottom: 0;
   z-index: -2;
@@ -14485,6 +14485,12 @@ span.ur-info-link-spb:hover {
     height: 40px;
   }
 }
+@media (max-width: 1180px) {
+  .history-sliders .tabs-buttons {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
 @media (max-width: 1170px) {
   .rowBlockEx {
     -ms-flex-wrap: wrap;
@@ -15045,6 +15051,10 @@ span.ur-info-link-spb:hover {
     margin-right: 9px;
   }
   .tabs-buttons .swiper-slide.active::before {
+    width: 142px;
+    right: -70px;
+  }
+  .tabs-buttons .swiper-slide.tabs-item.active::before {
     width: 100%;
     right: 0;
   }
@@ -15144,6 +15154,9 @@ span.ur-info-link-spb:hover {
 @media (max-width: 380px) {
   .tabs-content .swiper-slide > div {
     height: 230px;
+  }
+  .history-our-clinic {
+    padding-bottom: 0;
   }
 }
 @media (max-width: 360px) {
