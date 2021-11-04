@@ -15148,7 +15148,8 @@ span.ur-info-link-spb:hover {
     padding-top: 20px;
   }
   .author-short-info .name {
-    font-family: "Inter - Semi Bold";
+    font-family: 'Inter';
+    font-size: 20px;
   }
 }
 @media (max-width: 380px) {
