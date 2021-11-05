@@ -15203,11 +15203,11 @@ span.ur-info-link-spb:hover {
     height: 230px;
   }
   .history-our-clinic {
-    padding-bottom: 0;
+    padding-bottom: 15px;
   }
   .tabs-content .swiper-button-next,
   .tabs-content .swiper-button-prev {
-    top: 46%;
+    top: 50%;
   }
 }
 @media (max-width: 360px) {
