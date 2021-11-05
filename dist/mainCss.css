@@ -12772,11 +12772,13 @@ section.sertificatAbout {
   padding: 250px 0 180px 0;
   background-image: url('img/good-history-bg.png');
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .history-bad-block {
   padding: 250px 0 180px 0;
   background-image: url('img/bad-history-bg.png');
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .history-content {
   /*margin-bottom: 200px;*/
@@ -14824,6 +14826,10 @@ span.ur-info-link-spb:hover {
   .row_advantages_mission {
     padding-left: 15px;
   }
+  .tabs-content .swiper-button-next,
+  .tabs-content .swiper-button-prev {
+    top: 49%;
+  }
 }
 @media (max-width: 650px) {
   .bottomDiffOff-item img {
@@ -15187,6 +15193,10 @@ span.ur-info-link-spb:hover {
   .reviews-our-clinic .reviews-our-clinic-block:nth-of-type(even) {
     margin-bottom: 0;
   }
+  .tabs-content .swiper-button-next,
+  .tabs-content .swiper-button-prev {
+    top: 50%;
+  }
 }
 @media (max-width: 380px) {
   .tabs-content .swiper-slide > div {
@@ -15194,6 +15204,10 @@ span.ur-info-link-spb:hover {
   }
   .history-our-clinic {
     padding-bottom: 0;
+  }
+  .tabs-content .swiper-button-next,
+  .tabs-content .swiper-button-prev {
+    top: 46%;
   }
 }
 @media (max-width: 360px) {
