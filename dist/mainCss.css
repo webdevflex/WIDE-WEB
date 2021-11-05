@@ -14582,6 +14582,10 @@ span.ur-info-link-spb:hover {
   .menu .wrapper {
     z-index: 4;
   }
+  .wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 @media (max-width: 1023px) {
   .hamburger {
